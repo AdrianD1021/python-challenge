@@ -57,13 +57,16 @@ print("Winner: " + Winner)
 
 file.write("Election Results")
 file.write("\n------------------------------")
+file.write("\n")
 file.write("\nTotal Votes " + str(Votes))
 file.write("\n------------------------------")
 file.write("\nCharles Casper Stockham: " + str("{:.2%}".format(Charles/Votes))+ " ("  + str(Charles) + ")")
 file.write("\nRaymon Anthony Doane:  " + str("{:.2%}".format(Raymon/Votes))+ " (" +str(Raymon) + ")")
 file.write("\nDiana DeGette: " + str("{:.2%}".format(Diana/Votes))+ " (" +str(Diana) + ")")
+file.write("\n")
 file.write("\n------------------------------")
 file.write("\nWinner: " + Winner)
+file.write("\n------------------------------")
 
 file.close()
 
