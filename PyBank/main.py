@@ -89,8 +89,8 @@ print("Total: $" + str("{:.2f}".format(TProfit)))
 print("Average Change: $" + str("{:.2f}".format(Average)))
 
 #Calculates and Prints Max and Min Change
-print("Greatest Increase in Profits:" + str(Best) + " ($" + str("{:.2f}".format(Max))+ ")")
-print("Greatest Decrease in Profits:" + str(Worst) + " ($" + str("{:.2f}".format(Min))+")")
+print("Greatest Increase in Profits: " + str(Best) + " ($" + str("{:.2f}".format(Max))+ ")")
+print("Greatest Decrease in Profits: " + str(Worst) + " ($" + str("{:.2f}".format(Min))+")")
 
 #Prints Financial Data to Text File
 
@@ -111,6 +111,6 @@ file.write("\nTotal: $" + str("{:.2f}".format(TProfit)))
 file.write("\nAverage Change: $" + str("{:.2f}".format(Average)))
 
 #Calculates and Prints Max and Min Change
-file.write("\nGreatest Increase in Profits:" + str(Best) + " ($" + str("{:.2f}".format(Max))+ ")")
-file.write("\nGreatest Decrease in Profits:" + str(Worst) + " ($" + str("{:.2f}".format(Min))+")")  
+file.write("\nGreatest Increase in Profits: " + str(Best) + " ($" + str("{:.2f}".format(Max))+ ")")
+file.write("\nGreatest Decrease in Profits: " + str(Worst) + " ($" + str("{:.2f}".format(Min))+")")  
 
