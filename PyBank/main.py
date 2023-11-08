@@ -24,8 +24,9 @@ Worst = ''
 Max = 0
 Min = 0
 
-#Opens Budget Data
-csvpath = os.path.join('..','Resources',"C:/Users/adria/Desktop/Rutgers Bootcamp/python-challenge/PyBank/Resources/budget_data.csv")
+#Opens Budget Data using Relative Path
+dir = os.path.dirname(__file__)
+csvpath = os.path.join(dir,'Resources','budget_data.csv')
 
 with open(csvpath) as csvfile:
 
