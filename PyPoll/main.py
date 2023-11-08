@@ -10,7 +10,8 @@ Percentage = "{:.0%}.format(Votes)"
 
 #Opens Election Data
 file = open('PollResults.txt','w')
-csvpath = os.path.join('..','Resources',"C:/Users/adria/Desktop/Rutgers Bootcamp/python-challenge/PyPoll/Resources/election_data.csv")
+dir =os.path.dirname(__file__)
+csvpath = os.path.join(dir,'Resources','election_data.csv')
 
 with open(csvpath) as csvfile:
 
